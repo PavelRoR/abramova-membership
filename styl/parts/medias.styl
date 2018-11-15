@@ -20,6 +20,7 @@
 	.for_container_text
 	.how_description_text
 	.how_attention_block p
+	.author_list li
 		font-size: 20px
 	.reach_title
 	.reach_list
@@ -38,6 +39,11 @@
 		font-size: 28px
 	.how_description
 		padding 50px 70px 43px
+	#janna_about
+		max-width 845px
+		left -50px
+	.author_container
+		width 740px
 @media screen and (max-width 1199px)
 	#logo
 		width: 200px
@@ -51,6 +57,8 @@
 	.reach_title
 	.reach_list
 		margin-left: 20px
+	.author_container
+		width: 520px
 @media screen and (max-width 991px)
 	#logo
 		width: 180px
@@ -89,6 +97,22 @@
 		background-position: center
 	#footer
 		padding 20px 0
+	#author
+		padding: 60px 0
+	.author_title
+		margin-bottom: 30px
+	#janna_about
+		position: relative;
+		display: block;
+		max-width: 550px;
+		margin: 0 0 50px
+		bottom auto
+		left -60px
+	.author_container
+		width 100%
+		float: none
+	.author_list li:last-child
+		margin-bottom: 0
 @media screen and (max-width 767px)
 	#header
 		padding 10px 0
@@ -159,6 +183,7 @@
 	#main
 	#how, #prices, #reach, #second
 	#for
+	#author
 		padding 30px 0
 	.main_pre
 		font-size: 24px
@@ -250,6 +275,18 @@
 		font-size: 12px
 	.how_description::before
 		width: 45%
+	.author_title
+		font-size: 26px
+		margin-bottom: 0
+	#janna_about
+		margin:0 auto 30px
+		position: static
+	.author_subtitle
+		font-size: 22px
+		margin-bottom: 20px
+	.author_list li
+		padding-left: 20px
+		margin-bottom: 10px
 @media screen and (max-width 380px)
 	.main_pre
 		font-size: 18px
