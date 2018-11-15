@@ -125,10 +125,23 @@
     .for_container
         margin-bottom: 20px
     .reach_single
-        max-width 100%
+        max-width 460px
         margin-bottom: 30px
+    .reach_single:before
+        height 150px
+        bottom: 90px
+    .reach_single_1:before
+        height 60px
     .prices_title
         margin-bottom: 30px
-    .how_description::before
+    .how_description:before
         width 100%
         max-width 60%
+@media screen and (max-width 650px)
+    .reach_single:after
+        width: 50px
+    .reach_single_text
+        padding-left: 60px
+    .how_description:before
+        width 100%
+        max-width 55%
